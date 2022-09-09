@@ -8,16 +8,16 @@ class MyApp extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
    return MaterialApp(
-     title: 'Flutter Demo',
+     title: 'IT CLUB Android Dev Demo',
      theme: ThemeData(
        primarySwatch: Colors.blue,
      ),
      home: Scaffold(
        appBar: AppBar(
-         title: Text('Hello, world!'),
+         title: Text('Ini kode pertamaku!'),
        ),
        body: Center(
-         child: Text('Hello, world!'),
+         child: Text('Semangat temen-temen!'),
        ),
      ),
    );
