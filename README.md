@@ -6,4 +6,8 @@ Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di fo
 
 ### BAB 1 - Dasar-Dasar Flutter 
 > [Materi](https://raw.githubusercontent.com/alfikiafan/ITCLUB-Android-Dev/2a8f20a3de0a43e2de7a012870f750c3f4c407df/1%20-%20Dasar-Dasar%20Flutter/1%20-%20Dasar-Dasar%20Flutter.pdf)  
-> [Source Code Folder](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/1%20-%20Dasar-Dasar%20Flutter)
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/1%20-%20Dasar-Dasar%20Flutter/src)
+
+### BAB 2 - Widget (Bagian 1)
+> [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201))  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201)/src)  
