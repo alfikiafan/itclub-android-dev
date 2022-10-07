@@ -1,5 +1,15 @@
-# ITCLUB-Android-Dev
+<h2 align="center">
+  ITCLUB-Android-Dev
+</h2>
+
+<div align="center">  
+
+  ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=alfikiafan.ITCLUB-Android-Dev)  
+
+</div>
+<h4 align="center">
 Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di foldernya ya, folder sesuai dengan urutan bab.  
+<h4>
 
 ### Pengantar - Pengenalan Flutter
 > [Materi](https://raw.githubusercontent.com/alfikiafan/ITCLUB-Android-Dev/c765e0ee7ef1dc2770c56d7ae665237058b23829/0%20-%20Pengenalan%20Flutter/0%20-%20Pengenalan%20Flutter.pdf)
