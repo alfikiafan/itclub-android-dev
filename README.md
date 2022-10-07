@@ -2,11 +2,6 @@
   ITCLUB-Android-Dev
 </h2>
 
-<div align="center">  
-
-  ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=alfikiafan.ITCLUB-Android-Dev)  
-
-</div>
 <h4 align="center">
 Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di foldernya ya, folder sesuai dengan urutan bab.  
 <h4>
