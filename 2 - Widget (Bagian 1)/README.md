@@ -13,4 +13,4 @@ Selamat datang di bab Widget (Bagian 1), teman-teman bisa melihat source code da
 ### Navigasi
 - Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
 - Bab Sebelumnya: [Dasar-Dasar Flutter](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/1%20-%20Dasar-Dasar%20Flutter)
-- Bab Setelahnya: [Project (Tahap 1](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%201)
+- Bab Setelahnya: [Project (Tahap 1)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%201)
