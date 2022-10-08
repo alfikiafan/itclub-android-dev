@@ -1,7 +1,3 @@
-# Project Tahap 1
-## Penafian
-Penjelasan yang ada di folder ini hanya untuk membantu pelaksanaan project. Kalian bebas untuk membuat project Flutter apa saja dengan menggunakan widget yang telah kita pelajari sebelumnya. Jika ada pertanyaan, silakan menghubungi fasilitator atau bertanya ke grup WhatsApp.
-
 ## Gambaran Project
 Contoh project pada IT CLUB ini adalah aplikasi yang menampilkan tempat-tempat wisata di Surakarta.  
 Dalam pertama ini kita akan membuat sebuah tampilan yang menggabungkan semua widget-widget yang sebelumnya kita pelajari. Tampilannya adalah seperti berikut:
