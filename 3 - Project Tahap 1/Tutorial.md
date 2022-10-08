@@ -353,5 +353,5 @@ Dengan menyelesaikan tahap ini, berarti kita sudah siap untuk melanjutkan ke bab
 
 ## Navigasi
 - Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
-- Bab Sebelumnya: [Widget (Bagian 1)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/1%20-%20Dasar-Dasar%20Flutter)
+- Bab Sebelumnya: [Widget (Bagian 1)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201))
 - Bab Setelahnya: [Widget (Bagian 2)]()
