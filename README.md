@@ -1,20 +1,18 @@
+<h2 align="center">
+  ITCLUB - Android Development
+</h2>
+
 <div align="center">  
   
-  [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
-  
   ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=flat&logo=dart&logoColor=white)
-  ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
   ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=flat&logo=android-studio&logoColor=white)
-  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flate&logo=intellij-idea&logoColor=white)
+  ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flate&logo=intellij-idea&logoColor=white) &nbsp;
+  ![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=flat) &nbsp;
   ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)
   ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
   ![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=ios&logoColor=white)
 
 </div>
-  
-<h2 align="center">
-  ITCLUB - Android Development
-</h2>
 
 <p align="center">
 <img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/Assets/Android.jpg" alt="Android" style="width: 500px;"/>  
