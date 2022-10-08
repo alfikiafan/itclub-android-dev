@@ -2,6 +2,10 @@
   ITCLUB-Android-Dev
 </h2>
 
+<p align="center">
+<img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/Assets/Android.jpg" alt="Android" style="width: 500px;"/>  
+</p>  
+
 <h4 align="center">
 Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di foldernya ya, folder sesuai dengan urutan bab.  
 <h4>
