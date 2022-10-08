@@ -1,6 +1,6 @@
-## Gambaran Project
+## Gambaran Project Tahap 1
 Contoh project pada IT CLUB ini adalah aplikasi yang menampilkan tempat-tempat wisata di Surakarta.  
-Dalam pertama ini kita akan membuat sebuah tampilan yang menggabungkan semua widget-widget yang sebelumnya kita pelajari. Tampilannya adalah seperti berikut:  
+Pada tahap pertama ini kita akan membuat sebuah tampilan yang menggabungkan semua widget-widget yang sebelumnya kita pelajari. Tampilannya adalah seperti berikut:  
 
 <p align="center">
 <img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/3%20-%20Project%20Tahap%201/assets/2%20-%20Final%20Step%201.png" alt="Project Tahap 1" style="height: 500px;"/>  
