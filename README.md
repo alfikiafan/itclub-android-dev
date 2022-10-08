@@ -15,4 +15,7 @@ Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di fo
 
 ### BAB 2 - Widget (Bagian 1)
 > [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201))  
-> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201)/src)  
+
+### Project (Tahap 1)
+> [Tutorial](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%201)  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/Source%20Code/Project%20Tahap%201/main.dart)  
