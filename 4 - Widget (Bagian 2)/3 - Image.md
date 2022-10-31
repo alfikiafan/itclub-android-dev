@@ -35,7 +35,7 @@ class FirstScreen extends StatelessWidget {
 Pada kode di atas kita panggil method Image.network dengan url https://picsum.photos/200/300 lalu width dan height-nya diberikan masing-masing 200. Sehingga hasilnya seperti berikut:  
 
 <p align="center">
-<img src= "" alt="Image.network" style="height: 600px;"/>  
+<img src= "https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/assets/4.3.1%20Image.network.png" alt="Image.network" style="height: 600px;"/>  
 </p>  
 
 ## Image.asset
@@ -46,10 +46,10 @@ Pertama kita harus menambahkan terlebih dahulu gambar yang akan didaftarkan ke d
 Pada contoh berikut kita menambahkan folder images/ pada folder project.
 
 <p align="center">
-<img src= "" alt="Image.network" style="height: 600px;"/>  
+<img src= "https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/assets/4.3.2%20Add%20Image%20Folder.png" alt="Image.network" style="height: 600px;"/>  
 </p>  
 
-Masukkan berkas gambar yang ingin Anda gunakan ke dalam folder image. Sebagai contoh kita menggunakan gambar bernama Android.png.  
+Masukkan berkas gambar yang ingin Anda gunakan ke dalam folder image. Sebagai contoh kita menggunakan gambar bernama [Android.png]([https://link-url-here.org](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/assets/4.3.3%20Android.png))  
 Setelah menambahkan gambar pada project, saatnya kita mendaftarkan gambar tersebut pada file bernama **pubspec.yaml**.  
 Di dalam berkas **pubspec.yaml**, kita bisa mendaftarkan aset gambar pada bagian flutter seperti di bawah ini:  
 
@@ -127,5 +127,5 @@ class FirstScreen extends StatelessWidget {
 Jika aplikasi Flutter dijalankan, maka gambar akan tampil seperti di bawah ini:  
 
 <p align="center">
-<img src= "" alt="Hasil penambahan gambar" style="height: 600px;"/>  
+<img src= "https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/assets/4.3.4%20Hasil.png" alt="Hasil penambahan gambar" style="height: 600px;"/>  
 </p>  
