@@ -305,3 +305,7 @@ Jika kode tersebut dijalankan, hasilnya adalah seperti ini:
 -   [Switch Class](https://api.flutter.dev/flutter/material/Switch-class.html)
 -   [Radio Class](https://api.flutter.dev/flutter/material/Radio-class.html)
 -   [Checkbox Class](https://api.flutter.dev/flutter/material/Checkbox-class.html)
+
+## Navigasi
+ - Materi Sebelumnya: [Button](https://github.com/alfikiafan/ITCLUB-Android-Dev)
+ - Materi Setelahnya: [Image](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/3%20-%20Image.md) 
