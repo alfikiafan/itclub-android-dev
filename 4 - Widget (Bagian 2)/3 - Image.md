@@ -75,13 +75,13 @@ flutter:
   uses-material-design: true
  
   assets:
-    - images/android.png
+    - images/Android.png
 ...
 ```  
 
 Hapus juga tanda pagar (#) atau komentar yang tidak diperlukan. Perhatikan pula indentasi kodenya. `assets`: berada sejajar dengan `uses-material-design`: yaitu berjarak 2 spasi dari ujung dan berada di dalam `flutter:` sedangkan `- images/android.png` berada di dalam `assets:` dan berjarak 4 spasi dari ujung.
 
-Pada contoh di atas kita telah menambahkan asset yang berisi lokasi gambar atau aset yang ingin kita gunakan. Karena kita menambahkan gambar **android.png** pada folder _images_, maka lokasi gambar tersebut adalah **images/android.png**.
+Pada contoh di atas kita telah menambahkan asset yang berisi lokasi gambar atau aset yang ingin kita gunakan. Karena kita menambahkan gambar **Android.png** pada folder _images_, maka lokasi gambar tersebut adalah **images/Android.png**.
 
 Jika terdapat banyak gambar yang kita masukkan ke dalam lokasi folder, daripada menuliskan lokasi gambar satu per satu, lebih baik langsung menuliskan folder **images/** seperti berikut:  
 
@@ -96,7 +96,7 @@ flutter:
 ...
 ```
 
-Setelah menambahkan _assets_, kita harus me-_refresh_ **pubspec.yaml** dengan cara _save file_ pubspec.yaml bila menggunakan Visual Studio Code atau menekan 'Packages get' yang ada di pojok kanan atas untuk Android Studio.  
+Setelah menambahkan _assets_, kita harus me-_refresh_ **pubspec.yaml** dengan cara _save file_ pubspec.yaml bila menggunakan Visual Studio Code atau menekan 'Packages get' yang ada di pojok kanan atas untuk Android Studio atau IntellijIDEA.  
 Setelah kita menambahkan asset ke dalam pubspec.yaml kita perlu melakukan full restart agar asset yang baru dapat digunakan dalam aplikasi.  
 Kita telah mendaftarkan suatu asset. Sekarang kita akan panggil asset tersebut pada kode kita dengan method `Image.asset`. Cara penulisannya seperti ini:  
 
@@ -129,3 +129,10 @@ Jika aplikasi Flutter dijalankan, maka gambar akan tampil seperti di bawah ini:
 <p align="center">
 <img src= "https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/assets/4.3.4%20Hasil.png" alt="Hasil penambahan gambar" style="height: 600px;"/>  
 </p>  
+
+## Referensi
+- [Image Class](https://api.flutter.dev/flutter/widgets/Image-class.html)
+
+## Navigasi
+ - Silabus: [Input Widget](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/2%20-%20Input%20Widget.md)
+ - Materi Setelahnya: [Font](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/4%20-%20Font.md) 
