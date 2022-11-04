@@ -307,5 +307,5 @@ Jika kode tersebut dijalankan, hasilnya adalah seperti ini:
 -   [Checkbox Class](https://api.flutter.dev/flutter/material/Checkbox-class.html)
 
 ## Navigasi
- - Materi Sebelumnya: [Button](https://github.com/alfikiafan/ITCLUB-Android-Dev)
+ - Materi Sebelumnya: [Button](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/1%20-%20Button.md)
  - Materi Setelahnya: [Image](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/4%20-%20Widget%20(Bagian%202)/3%20-%20Image.md) 
