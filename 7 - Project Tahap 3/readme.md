@@ -1,6 +1,6 @@
 # Project Tahap 3: Menampilkan Daftar Tempat Wisata
 
-Sekarang kita telah sampai pada project bagian ketiga. Di akhir codelab ini kita akan menyelesaikan project aplikasi Wisata Solo. Hasil akhir aplikasi akan seperti berikut:
+Sekarang kita telah sampai pada project bagian ketiga. Di akhir project ini kita akan menyelesaikan aplikasi Wisata Solo. Hasil akhir aplikasi akan seperti berikut:
 
 <p align="center">
 <img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/3%20-%20Project%20Tahap%201/assets/1%20-%20Final%20Project.gif" alt="Hasil Akhir" style="height: 500px;"/>  
