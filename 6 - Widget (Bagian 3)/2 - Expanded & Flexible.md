@@ -191,7 +191,7 @@ class FlexibleWidget extends StatelessWidget {
 
 ## Referensi
 -   [Expanded Class](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
--   [Flexible Class](hhttps://api.flutter.dev/flutter/widgets/Flexible-class.html)
+-   [Flexible Class](https://api.flutter.dev/flutter/widgets/Flexible-class.html)
 
 ## Navigasi
 - Silabus: [Kembali ke Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
