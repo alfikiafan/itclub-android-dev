@@ -466,5 +466,5 @@ Dengan menyelesaikan tahap ini, berarti kita sudah siap untuk melanjutkan ke bab
 
 ## Navigasi
 - Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
-- Bab Sebelumnya: [Widget (Bagian 2)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%202))
-- Bab Setelahnya: [Widget (Bagian 3)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/4%20-%20Widget%20(Bagian%203))
+- Bab Sebelumnya: [Widget (Bagian 2)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/4%20-%20Widget%20(Bagian%202))
+- Bab Setelahnya: [Widget (Bagian 3)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/6%20-%20Widget%20(Bagian%203))
