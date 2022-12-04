@@ -83,7 +83,7 @@ class MainScreen extends StatelessWidget {
                   const SizedBox(
                     height: 10,
                   ),
-                  Text('Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-poranda akibat Geger Pecinan pada tahun 1743.'),
+                  Text('Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-porkita akibat Geger Pecinan pada tahun 1743.'),
                 ],
               ),
             )
@@ -94,7 +94,7 @@ class MainScreen extends StatelessWidget {
   }
 }
 ```  
-5. Jalankan aplikasinya. Aplikasi akan mengalami overflow karena aset gambar yang terlalu besar. Kita bisa saja mengatur tinggi gambar secara manual, namun kali ini kita akan memanfaatkan widget **Expanded** agar tampilan juga dapat menyesuaikan di perangkat yang lebih besar atau kecil. Bungkus masing-masing item dari widget **Row** ke dalam **Expanded**. Berikan parameter `flex` yang menurut Anda cocok.  
+5. Jalankan aplikasinya. Aplikasi akan mengalami overflow karena aset gambar yang terlalu besar. Kita bisa saja mengatur tinggi gambar secara manual, namun kali ini kita akan memanfaatkan widget **Expanded** agar tampilan juga dapat menyesuaikan di perangkat yang lebih besar atau kecil. Bungkus masing-masing item dari widget **Row** ke dalam **Expanded**. Berikan parameter `flex` yang menurut kita cocok.  
 
 ```dart
 class MainScreen extends StatelessWidget {
@@ -102,7 +102,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Wisata Bandung'),
+        title: const Text('Wisata Solo'),
       ),
       body: Card(
         child: Row(
@@ -110,7 +110,7 @@ class MainScreen extends StatelessWidget {
           children: <Widget>[
             Expanded(
               flex: 1,
-              child: Image.asset('images/farm-house.jpg'),
+              child: Image.asset('images/Keraton_Kasunanan.jpeg'),
             ),
             Expanded(
               flex: 2,
@@ -121,13 +121,13 @@ class MainScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      'Farm House Lembang',
+                      'Keraton Kasunanan Surakarta',
                       style: const TextStyle(fontSize: 16.0),
                     ),
                     const SizedBox(
                       height: 10,
                     ),
-                    Text('Lembang'),
+                    Text('Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-porkita akibat Geger Pecinan pada tahun 1743.'),
                   ],
                 ),
               ),
@@ -139,7 +139,7 @@ class MainScreen extends StatelessWidget {
   }
 }
 ```  
-6. Item pertama Anda sudah siap. Selanjutnya kita akan membuat kartu ini bisa diklik untuk berpindah ke halaman detail. Kita bisa menggunakan widget **InkWell** yang menyediakan parameter `onTap`. Pindahkan widget **Card** Anda menjadi child dari **InkWell**.
+6. Item pertama kita sudah siap. Selanjutnya kita akan membuat kartu ini bisa diklik untuk berpindah ke halaman detail. Kita bisa menggunakan widget **InkWell** yang menyediakan parameter `onTap`. Pindahkan widget **Card** kita menjadi child dari **InkWell**.
 
 ```dart
 class MainScreen extends StatelessWidget {
@@ -147,7 +147,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wisata Bandung'),
+        title: Text('Wisata Solo'),
       ),
       body: InkWell(
         onTap: () {},
@@ -168,7 +168,7 @@ onTap: () {
 },
 ```  
 
-Jalankan aplikasi. Seharusnya sampai langkah ini aplikasi Anda sudah dapat berpindah halaman ketika item diklik.  
+Jalankan aplikasi. Seharusnya sampai langkah ini aplikasi kita sudah dapat berpindah halaman ketika item diklik.  
 
 8. Selanjutnya kita akan menampilkan beberapa item ke MainScreen. Di sini kita masih menggunakan data statis dan lokal yang disimpan pada objek List. Sebelumnya, buatlah kelas sebagai blueprint untuk menyimpan objek tempat wisata kita. Buat folder baru di dalam folder **lib** dengan cara klik kanan folder **lib -> New -> Package**, lalu berikan nama model. Di dalam folder model buat berkas dart bernama **tourism_place.dart**.  
 
@@ -198,7 +198,7 @@ class TourismPlace {
 }
 ```
 
-10. Siapkan data statis yang ingin ditampilkan Anda dapat menyalin kode berikut dan taruh di berkas **tourism_place.dart** paling bawah.
+10. Siapkan data statis yang ingin ditampilkan kita dapat menyalin kode berikut dan taruh di berkas **tourism_place.dart** paling bawah.
 
 ```dart
 class TourismPlace {
@@ -228,7 +228,7 @@ var tourismPlaceList = [
     name: 'Keraton Kasunanan Surakarta',
     location: 'Baluwarti, Pasarkliwon',
     description:
-        'Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-poranda akibat Geger Pecinan pada tahun 1743.',
+        'Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-porkita akibat Geger Pecinan pada tahun 1743.',
     openDays: 'Open Saturday-Thursday',
     openTime: '09:00 - 14:00',
     ticketPrice: 'Rp 10.000',
@@ -243,7 +243,7 @@ var tourismPlaceList = [
     name: 'The Heritage Palace',
     location: 'Kartasura, Sukoharjo',
     description:
-        'Destinasi wisata ini merupakan bangunan tua bekas pabrik gula Colomadu yang dibangun oleh pemerintahan Belanda. Kini, setelah disulap oleh pemerintah Indonesia, bangunan ini menjadi tempat wisata sejarah yang menarik dan instagramable. The Heritage Palace kini menjadi salah satu destinasi wisata menarik dan favorit bagi masyarakat. Selain itu, menawarkan pemandangan taman, museum seni, dan ruang konvensi.',
+        'Destinasi wisata ini merupakan bangunan tua bekas pabrik gula Colomadu yang dibangun oleh pemerintahan Belkita. Kini, setelah disulap oleh pemerintah Indonesia, bangunan ini menjadi tempat wisata sejarah yang menarik dan instagramable. The Heritage Palace kini menjadi salah satu destinasi wisata menarik dan favorit bagi masyarakat. Selain itu, menawarkan pemkitangan taman, museum seni, dan ruang konvensi.',
     openDays: 'Open Everyday',
     openTime: '09:00 - 14:30',
     ticketPrice: 'Rp 55.000',
@@ -303,7 +303,7 @@ var tourismPlaceList = [
     name: 'Waduk Cengklik',
     location: 'Ngemplak, Boyolali',
     description:
-        'Waduk ini memiliki pemandangan Gunung Merapi dan Gunung Merbabu yang cantik, membuat waduk ini cocok untuk menjadi tempat wisata. Pengunjung juga dapat menyewa kapal untuk mengelilingi waduk ini sembari menikmati sepoi sepoi angin, memandangi kapal kapal kecil serta enceng gondok yang segar dan saat sore hari disuguhkan dengan siluet pemandangan dengan cahaya keemasan yang memanjakan mata. ',
+        'Waduk ini memiliki pemkitangan Gunung Merapi dan Gunung Merbabu yang cantik, membuat waduk ini cocok untuk menjadi tempat wisata. Pengunjung juga dapat menyewa kapal untuk mengelilingi waduk ini sembari menikmati sepoi sepoi angin, memkitangi kapal kapal kecil serta enceng gondok yang segar dan saat sore hari disuguhkan dengan siluet pemkitangan dengan cahaya keemasan yang memanjakan mata. ',
     openDays: 'Open Everyday',
     openTime: '08.30-18.00',
     ticketPrice: '25.000',
@@ -318,7 +318,7 @@ var tourismPlaceList = [
     name: 'The Lawu Park',
     location: 'Tawangmangu, Karanganyar',
     description:
-        'The Lawu Park merupakan salah satu obyek wisata unggulan di Tawangmangu yang menyajikan destinasi wisata alam yang sering jadi incaran wisatawan. Hawa yang digin serta pemandangan yang asri menjadikan daya tarik sendiri dari obyek wisata The Lawu Park.',
+        'The Lawu Park merupakan salah satu obyek wisata unggulan di Tawangmangu yang menyajikan destinasi wisata alam yang sering jadi incaran wisatawan. Hawa yang digin serta pemkitangan yang asri menjadikan daya tarik sendiri dari obyek wisata The Lawu Park.',
     openDays: 'Open Everyday',
     openTime: '08.00 - 17.00',
     ticketPrice: 'Rp 20.000',
@@ -348,7 +348,7 @@ var tourismPlaceList = [
     name: 'Kebun Teh Kemuning',
     location: 'Ngargoyoso, Karanganyar',
     description:
-        'Kebun Teh Kemuning berada di area dataran tinggi sejuk karanganyar. Berlokasi tak terlalu jauh dari kota solo, area perkebunan menawarkan sensasi wisata kebun teh yang unik. Karanganyar seolah menjadi daerah “puncak”-nya Jawa Tengah. Jika di Jawa Barat ada Bogor yang sering ramai kala liburan. Kebun Teh ini memiliki pemandangan indah hijau alami dengan hamparan tanaman teh dimana-mana. Tidak hanya itu, objek wisata ini juga menyediakan berbagai wahana dan spot foto yang menarik.',
+        'Kebun Teh Kemuning berada di area dataran tinggi sejuk karanganyar. Berlokasi tak terlalu jauh dari kota solo, area perkebunan menawarkan sensasi wisata kebun teh yang unik. Karanganyar seolah menjadi daerah “puncak”-nya Jawa Tengah. Jika di Jawa Barat ada Bogor yang sering ramai kala liburan. Kebun Teh ini memiliki pemkitangan indah hijau alami dengan hamparan tanaman teh dimana-mana. Tidak hanya itu, objek wisata ini juga menyediakan berbagai wahana dan spot foto yang menarik.',
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Free',
@@ -367,7 +367,7 @@ Jangan lupa untuk menambahkan import berkas **tourism_place.dart** pada file **m
 ```dart
 import 'package:wisatasolo/model/tourism_place.dart';
 ```
-Untuk berkas aset yang digunakan dapat Anda unduh pada tautan berikut.
+Untuk berkas aset yang digunakan dapat kita unduh pada tautan berikut.
 <a href="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/7%20-%20Project%20Tahap%203/assets/assets_wisata.zip" target="_blank">Aset Wisata</a>  
 
 11. Sesuai yang telah kita pelajari pada materi ListView, kita akan menampilkan variabel `tourismPlaceList` di atas menjadi item card yang dapat diklik. Tambahkan widget ListView sebagai body dari Scaffold. Pindahkan widget FlatButton dan seluruh konten di dalamnya sebagai widget dari setiap item di dalam `tourismPlaceList`.
@@ -378,7 +378,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wisata Bandung'),
+        title: Text('Wisata Solo'),
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
@@ -550,7 +550,7 @@ Navigator.push(context, MaterialPageRoute(builder: (context) {
 }));
 ```  
 
-13. Selanjutnya, kita akan menambahkan tombol navigasi untuk kembali ke halaman daftar tempat wisata. Tombol ini akan kita taruh di atas gambar utama atau gambar dari aset. Kita akan menggunakan widget **Stack**. Widget ini digunakan untuk menyusun widget seperti Column atau Row, bedanya widget pada Stack disusun secara bertumpuk (stacked). Ubah kode Anda menjadi seperti berikut:  
+13. Selanjutnya, kita akan menambahkan tombol navigasi untuk kembali ke halaman daftar tempat wisata. Tombol ini akan kita taruh di atas gambar utama atau gambar dari aset. Kita akan menggunakan widget **Stack**. Widget ini digunakan untuk menyusun widget seperti Column atau Row, bedanya widget pada Stack disusun secara bertumpuk (stacked). Ubah kode kita menjadi seperti berikut:  
 
 ```dart
 Stack(
@@ -572,7 +572,7 @@ IconButton(
 ),
 ```  
 
-14. Jika Anda jalankan aplikasi, ikon ini akan sedikit menabrak notification bar pada perangkat Android. Hal ini akan semakin terlihat apabila Anda menggunakan perangkat yang memiliki notch.  
+14. Jika kita jalankan aplikasi, ikon ini akan sedikit menabrak notification bar pada perangkat Android. Hal ini akan semakin terlihat apabila kita menggunakan perangkat yang memiliki notch.  
 Lalu bagaimana mengatasinya? Masih ingat dengan SafeArea? Kita akan memanfaatkan widget SafeArea yang akan memberikan padding sesuai dengan sistem operasi yang digunakan sehingga widget akan berada di area yang aman. Buat widget SafeArea lalu pindahkan IconButton ke dalamnya. 
 
 ```dart
@@ -608,7 +608,7 @@ SafeArea(
 ),
 ```  
 
-15. Terakhir, kita akan membuat fitur untuk menambahkan favorit. Fitur favorit ini memang belum lengkap, namun setidaknya cukup memberikan Anda gambaran bagaimana mengubah state aplikasi dan bagaimana widget dapat tampil sesuai dengan state yang ada.
+15. Terakhir, kita akan membuat fitur untuk menambahkan favorit. Fitur favorit ini memang belum lengkap, namun setidaknya cukup memberikan kita gambaran bagaimana mengubah state aplikasi dan bagaimana widget dapat tampil sesuai dengan state yang ada.
 
 Buat StatefulWidget pada berkas **detail_screen.dart**. Widget ini akan kita gunakan untuk menampilkan ikon favorit.
 
@@ -637,7 +637,7 @@ class _FavoriteButtonState extends State<FavoriteButton> {
 bool isFavorite = false;
 ```  
 
-State isFavorite ini akan berubah ketika ikon favorit diklik. Sehingga tambahkan kode untuk mengubah variabel **isFavorite**. Pastikan Anda memanggil fungsi `setState` untuk mengubah state.
+State isFavorite ini akan berubah ketika ikon favorit diklik. Sehingga tambahkan kode untuk mengubah variabel **isFavorite**. Pastikan kita memanggil fungsi `setState` untuk mengubah state.
 
  ```dart
  onPressed: () {
@@ -686,7 +686,7 @@ SafeArea(
 
 Jalankan aplikasi dan lihat perubahannya. Ketika ikon favorit diklik dan fungsi `setState()` dipanggil, maka method build akan kembali dijalankan dan widget akan dibuat dan ditampilkan menurut state-nya.  
 
-Selamat! Anda telah menyelesaikan seluruh project dari Aplikasi Wisata Solo. Seluruh kodenya adalah seperti berikut:
+Selamat! kita telah menyelesaikan seluruh project dari Aplikasi Wisata Solo. Seluruh kodenya adalah seperti berikut:
 
 **main.dart**
 
@@ -1228,7 +1228,7 @@ var tourismPlaceList = [
     name: 'Keraton Kasunanan Surakarta',
     location: 'Baluwarti, Pasarkliwon',
     description:
-        'Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-poranda akibat Geger Pecinan pada tahun 1743.',
+        'Karaton Suråkartå Hadiningrat adalah Istana resmi Kesunanan Surakarta Hadiningrat yang terletak di Kota Surakarta. Keraton ini didirikan oleh Sri Susuhunan Pakubuwana II pada tahun 1744 sebagai pengganti Keraton Kartasura yang porak-porkita akibat Geger Pecinan pada tahun 1743.',
     openDays: 'Open Saturday-Thursday',
     openTime: '09:00 - 14:00',
     ticketPrice: 'Rp 10.000',
@@ -1243,7 +1243,7 @@ var tourismPlaceList = [
     name: 'The Heritage Palace',
     location: 'Kartasura, Sukoharjo',
     description:
-        'Destinasi wisata ini merupakan bangunan tua bekas pabrik gula Colomadu yang dibangun oleh pemerintahan Belanda. Kini, setelah disulap oleh pemerintah Indonesia, bangunan ini menjadi tempat wisata sejarah yang menarik dan instagramable. The Heritage Palace kini menjadi salah satu destinasi wisata menarik dan favorit bagi masyarakat. Selain itu, menawarkan pemandangan taman, museum seni, dan ruang konvensi.',
+        'Destinasi wisata ini merupakan bangunan tua bekas pabrik gula Colomadu yang dibangun oleh pemerintahan Belkita. Kini, setelah disulap oleh pemerintah Indonesia, bangunan ini menjadi tempat wisata sejarah yang menarik dan instagramable. The Heritage Palace kini menjadi salah satu destinasi wisata menarik dan favorit bagi masyarakat. Selain itu, menawarkan pemkitangan taman, museum seni, dan ruang konvensi.',
     openDays: 'Open Everyday',
     openTime: '09:00 - 14:30',
     ticketPrice: 'Rp 55.000',
@@ -1303,7 +1303,7 @@ var tourismPlaceList = [
     name: 'Waduk Cengklik',
     location: 'Ngemplak, Boyolali',
     description:
-        'Waduk ini memiliki pemandangan Gunung Merapi dan Gunung Merbabu yang cantik, membuat waduk ini cocok untuk menjadi tempat wisata. Pengunjung juga dapat menyewa kapal untuk mengelilingi waduk ini sembari menikmati sepoi sepoi angin, memandangi kapal kapal kecil serta enceng gondok yang segar dan saat sore hari disuguhkan dengan siluet pemandangan dengan cahaya keemasan yang memanjakan mata. ',
+        'Waduk ini memiliki pemkitangan Gunung Merapi dan Gunung Merbabu yang cantik, membuat waduk ini cocok untuk menjadi tempat wisata. Pengunjung juga dapat menyewa kapal untuk mengelilingi waduk ini sembari menikmati sepoi sepoi angin, memkitangi kapal kapal kecil serta enceng gondok yang segar dan saat sore hari disuguhkan dengan siluet pemkitangan dengan cahaya keemasan yang memanjakan mata. ',
     openDays: 'Open Everyday',
     openTime: '08.30-18.00',
     ticketPrice: '25.000',
@@ -1318,7 +1318,7 @@ var tourismPlaceList = [
     name: 'The Lawu Park',
     location: 'Tawangmangu, Karanganyar',
     description:
-        'The Lawu Park merupakan salah satu obyek wisata unggulan di Tawangmangu yang menyajikan destinasi wisata alam yang sering jadi incaran wisatawan. Hawa yang digin serta pemandangan yang asri menjadikan daya tarik sendiri dari obyek wisata The Lawu Park.',
+        'The Lawu Park merupakan salah satu obyek wisata unggulan di Tawangmangu yang menyajikan destinasi wisata alam yang sering jadi incaran wisatawan. Hawa yang digin serta pemkitangan yang asri menjadikan daya tarik sendiri dari obyek wisata The Lawu Park.',
     openDays: 'Open Everyday',
     openTime: '08.00 - 17.00',
     ticketPrice: 'Rp 20.000',
@@ -1348,7 +1348,7 @@ var tourismPlaceList = [
     name: 'Kebun Teh Kemuning',
     location: 'Ngargoyoso, Karanganyar',
     description:
-        'Kebun Teh Kemuning berada di area dataran tinggi sejuk karanganyar. Berlokasi tak terlalu jauh dari kota solo, area perkebunan menawarkan sensasi wisata kebun teh yang unik. Karanganyar seolah menjadi daerah “puncak”-nya Jawa Tengah. Jika di Jawa Barat ada Bogor yang sering ramai kala liburan. Kebun Teh ini memiliki pemandangan indah hijau alami dengan hamparan tanaman teh dimana-mana. Tidak hanya itu, objek wisata ini juga menyediakan berbagai wahana dan spot foto yang menarik.',
+        'Kebun Teh Kemuning berada di area dataran tinggi sejuk karanganyar. Berlokasi tak terlalu jauh dari kota solo, area perkebunan menawarkan sensasi wisata kebun teh yang unik. Karanganyar seolah menjadi daerah “puncak”-nya Jawa Tengah. Jika di Jawa Barat ada Bogor yang sering ramai kala liburan. Kebun Teh ini memiliki pemkitangan indah hijau alami dengan hamparan tanaman teh dimana-mana. Tidak hanya itu, objek wisata ini juga menyediakan berbagai wahana dan spot foto yang menarik.',
     openDays: 'Open Everyday',
     openTime: '24 hours',
     ticketPrice: 'Free',
