@@ -74,7 +74,7 @@ class ScrollingScreen extends StatelessWidget {
 Ketika dijalankan, aplikasi akan menjadi seperti berikut:
 
 <p align="center">
-<img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/6%20-%20Widget%20(Bagian%203)/assets/1.1%20ListView.gif" alt="ListView" style="height: 600px;"/>  
+<img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/6%20-%20Widget%20(Bagian%203)/assets/6.1.1%20ListView.gif" alt="ListView" style="height: 600px;"/>  
 </p>  
 
 ## Menampilkan Item Secara Dinamis
@@ -199,7 +199,7 @@ ListView.separated(
 Jika kode di atas dijalankan, maka tampilan aplikasi adalah seperti ini:  
 
 <p align="center">
-<img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/6%20-%20Widget%20(Bagian%203)/assets/1.2%20ListView%202.gif" alt="ListView Result" style="height: 600px;"/>  
+<img src="https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/6%20-%20Widget%20(Bagian%203)/assets/6.1.2%20ListView%202.gif" alt="ListView Result" style="height: 600px;"/>  
 </p>  
 
 ## Referensi
