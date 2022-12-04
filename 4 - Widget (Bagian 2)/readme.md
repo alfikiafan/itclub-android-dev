@@ -9,4 +9,4 @@ Selamat datang di bab Widget (Bagian 2), teman-teman bisa melihat source code da
 ### Navigasi
 - Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
 - Bab Sebelumnya: [Project (Tahap 1)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%201)
-- Bab Setelahnya: [Project (Tahap 2)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%202)
+- Bab Setelahnya: [Project (Tahap 2)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/5%20-%20Project%20Tahap%202)
