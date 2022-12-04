@@ -1365,3 +1365,8 @@ var tourismPlaceList = [
 Kalian dapat mengunduh seluruh kodenya pada folder source code.
 
 **Tambahan:** Flutter dikenal dengan framework-nya yang sangat mudah dalam menghadirkan tampilan yang menarik termasuk menambahkan animasi. Salah satu yang paling mudah adalah Hero Animation. Sebagai tantangan, bisakah kalian menambahkan Hero Animation pada aplikasi kalian?
+
+## Navigasi
+- Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
+- Bab Sebelumnya: [Widget (Bagian 3)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/6%20-%20Widget%20(Bagian%203))
+- Bab Setelahnya: [Deployment](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/8%20-%20Deployment)
