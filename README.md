@@ -31,10 +31,27 @@ Selamat datang di IT CLUB, teman-teman bisa melihat source code dan materi di fo
 
 ### BAB 2 - Widget (Bagian 1)
 > [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%201))  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/2%20-%20Widget%20(Bagian%201))
 
 ### Project (Tahap 1)
 > [Tutorial](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/3%20-%20Project%20Tahap%201)  
-> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/blob/main/Source%20Code/Project%20Tahap%201/main.dart)  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/3%20-%20Project%20Tahap%201)  
 
-### BAB 3 - Widget (Bagian 2)
+### BAB 4 - Widget (Bagian 2)
 > [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/4%20-%20Widget%20(Bagian%202))  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/4%20-%20Widget%20(Bagian%202))  
+
+### Project (Tahap 2)
+> [Tutorial](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/5%20-%20Project%20Tahap%202)  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/5%20-%20Project%20Tahap%202)  
+
+### BAB 6 - Widget (Bagian 3)
+> [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/6%20-%20Widget%20(Bagian%203))  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/6%20-%20Widget%20(Bagian%203)) 
+
+### Project (Tahap 3)
+> [Tutorial](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/7%20-%20Project%20Tahap%203)  
+> [Source Code](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/Source%20Code/7%20-%20Project%20Tahap%203)  
+
+### BAB 8 - Deployment
+> [Materi](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/8%20-%20Deployment)  
