@@ -288,7 +288,7 @@ flutter:
 Container(
   margin: EdgeInsets.only(top: 16.0),
   child: Text(
-    'Farm House Lembang',
+    'Keraton Kasunanan',
     textAlign: TextAlign.center,
     style: TextStyle(
       fontSize: 30.0,
@@ -462,3 +462,9 @@ class DetailScreen extends StatelessWidget {
   }
 }
 ```
+Dengan menyelesaikan tahap ini, berarti kita sudah siap untuk melanjutkan ke bab Widget selanjutnya.
+
+## Navigasi
+- Kembali ke Silabus: [Silabus](https://github.com/alfikiafan/ITCLUB-Android-Dev)
+- Bab Sebelumnya: [Widget (Bagian 2)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/2%20-%20Widget%20(Bagian%202))
+- Bab Setelahnya: [Widget (Bagian 3)](https://github.com/alfikiafan/ITCLUB-Android-Dev/tree/main/4%20-%20Widget%20(Bagian%203))
